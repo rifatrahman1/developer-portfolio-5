@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+span {
+    color: orangered;
+}
+
+.RIFAT {
+    font-size: 50px;
+}
+
+.rayhan {
+    font-size: 20px;
+}
+
+small {
+    font-size: 20px;
+    color: gray;
+}
+
+/* Nav section start  */
+.main-nav-section {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav-li {
+    display: flex;
+    list-style: none;
+    margin-left: 280px;
+
+}
+
+.nav-li a {
+    text-decoration: none;
+    margin: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-li a:hover {
+    color: orangered;
+}
+
+.main-nav h2 span:hover {
+    color: #0db1f2;
+}
+
+.first-section {
+    padding-top: 26px;
+}
+
+.secnd-section {
+    padding-top: 110px;
+}
+
+#our-menu {
+    padding-top: 90px;
+}
+
+#socile-follwer {
+    padding-top: 70px;
+}
+
+.contact-us-section {
+    padding-top: 100px;
+}
+
+/* first section start  */
+.first-section {
+    display: flex;
+}
+
+.first-section-div {
+    width: 50%;
+    padding: 5%;
+}
+
+.first-section-div img {
+    width: 80%;
+}
+
+.order-food-btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#dd4b12, #ef4b0b);
+}
+
+.order-food-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* secnd section start  */
+
+.secnd-section {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+}
+
+.secnd-section-div {
+    width: 50%;
+    padding: 5%;
+}
+
+.secnd-section-div p {
+    font-size: 14px;
+}
+
+.secnd-section-div img {
+    width: 80%;
+}
+
+/* trd section start  */
+
+.trd-section-div-one {
+    text-align: center;
+}
+
+.trd-section-div-one p {
+    font-size: 14px;
+}
+
+/* food section start  */
+.food-div-father {
+    display: flex;
+    padding: 20px;
+}
+
+.food-folloer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.food-div {
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+}
+
+.food-padding {
+    margin-top: -45px;
+    padding: 5%;
+}
+
+.food-padding p {
+    font-size: 13px;
+}
+
+.food-div img {
+    width: 90%;
+    padding: 5%;
+}
+
+.food-socil-follower {
+    display: flex;
+    padding-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px #9a9797;
+    margin-bottom: 50px;
+}
+
+.all-socile {
+    margin: 5% 5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+/* contact us section start  */
+.contact-us-section {
+    background-image: url(images/food/Project\ Cover4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form h3 {
+    color: #00b7ff;
+}
+
+form h4 {
+    color: #fff;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.text-input {
+    height: 23px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+.message-input {
+    height: 80px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 12px;
+    background-image: linear-gradient(#FFF, #c8546c);
+}
+
+form a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* footer section start  */
+footer {
+    background-color: black;
+    height: 130px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+    color: white;
+}
+
+.footer-eat {
+    color: orangered;
+}
+
+.footer-fresh {
+    color: #808080a4;
+}
